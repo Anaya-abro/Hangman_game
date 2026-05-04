@@ -2,7 +2,7 @@
 import random
 print('Hangman Game')
 
-secret = ['Kingdom','beautiful','python','laptop','computer','science','apple','mother','door','park','car']
+secret = ['Kingdom','beautiful','python','laptop','computer','science','apple','mother','door','park','car','school']
 computer = random.choice(secret).lower()
 display = ['_']*len(computer)
 
